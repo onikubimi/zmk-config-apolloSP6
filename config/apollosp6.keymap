@@ -129,7 +129,6 @@
                 &kp LSHFT           &kp Z     &kp X      &kp C      &kp V     &kp ENTER                               &kp SLASH  &kp B      &kp N    &kp M     &kp RBKT             &kp ENTER
                 &kp LEFT   &kp UP   &kp DOWN  &kp RIGHT  &kp LCTRL  &kp TAB   &kp LALT   &lt 1 SPACE      &lt 2 INT5  &kp LGUI   &kp COMMA  &kp DOT  &kp LEFT  &kp UP     &kp DOWN  &kp RIGHT
             >;
-            sensor-bindings = <&scroll_left_right>;
         };
 
         // レイヤー1: Upper
