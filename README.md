@@ -1,1 +1,1 @@
-# zmk-config-apollosp5to6
+# zmk-config-apollosp6
