@@ -5,12 +5,6 @@
 #include <dt-bindings/zmk/pointing.h>
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 100
 
-&msc {
-        x-input-code = <INPUT_REL_HWHEEL>; // 横スクロールの定義
-        y-input-code = <INPUT_REL_WHEEL>;  // 縦スクロールの定義
-        time-to-max-speed-ms = <100>;      // 100〜300くらいが快適です
-        acceleration-exponent = <3>;       // 0だと等速、1以上だと加速がつきます
-};
 
 / {
         macros {
@@ -129,11 +123,11 @@
         // レイヤー0: 基本レイヤー
         default_layer {
             bindings = <
-                           &kp N1    &kp N2     &kp N3     &kp N4     &kp N5                                 &kp N6    &kp N7     &kp N8    &kp N9     &kp N0
-                &kp ESC    &kp Q     &kp W      &kp E      &kp R      &kp T                     &kp MINUS    &kp Y     &kp U      &kp I     &kp O      &kp P      &kp BSPC
-                &kp CAPS   &lt 2 A   &kp S      &kp D      &kp F      &kp G     &kp BSPC        &kp SLASH    &kp H     &kp J      &kp K     &kp L      &kp UP     &kp ENTER
-                &kp LSHFT  &kp UP    &kp Z      &kp X      &kp C      &kp V     &kp ENTER                    &kp B     &kp N      &kp M     &kp LEFT   &kp DOWN   &kp RIGHT
-                &kp LEFT   &kp DOWN  &kp RIGHT  &kp LCTRL  &kp TAB    &kp LALT  &lt 1 SPACE     &lt 2 INT5   &kp LGUI  &kp COMMA  &kp DOT
+                           &kp N1   &kp N2    &kp N3     &kp N4     &kp N5                                                       &kp N6     &kp N7   &kp N8    &kp N9     &kp N0
+                &kp ESC    &kp Q    &kp W     &kp E      &kp R      &kp T                                                        &kp Y      &kp U    &kp I     &kp O      &kp P     &kp BSPC
+                &kp CAPS   &lt 2 A  &kp S     &kp D      &kp F      &kp G     &kp BSPC                                &kp MINUS  &kp H      &kp J    &kp K     &kp L      &kp xx    &kp MINUS
+                &kp LSHFT           &kp Z     &kp X      &kp C      &kp V     &kp ENTER                               &kp SLASH  &kp B      &kp N    &kp M     &kp COMMA  &kp DOT   &kp ENTER
+                &kp LEFT   &kp UP   &kp DOWN  &kp RIGHT  &kp LCTRL  &kp TAB   &kp LALT   &lt 1 SPACE      &lt 2 INT5  &kp LGUI   &kp COMMA  &kp DOT  &kp LEFT  &kp UP     &kp DOWN  &kp RIGHT
             >;
             sensor-bindings = <&scroll_left_right>;
         };
