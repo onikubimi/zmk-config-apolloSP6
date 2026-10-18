@@ -1,4 +1,4 @@
 # zmk-config-apollosp6
 
 
-![画像のAltテキスト](images/apolloSP6.png)
+![画像のAltテキスト](apolloSP6.png)
