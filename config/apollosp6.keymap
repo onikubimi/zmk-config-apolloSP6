@@ -65,16 +65,6 @@
                 };
         };
 
-        behaviors {
-                // 横スクロール
-                scroll_left_right: behavior_sensor_rotate_mouse_wheel_left_right {
-                        compatible = "zmk,behavior-sensor-rotate";
-                        #sensor-binding-cells = <0>;
-                        bindings = <&msc SCRL_RIGHT>, <&msc SCRL_LEFT>;
-                        tap-ms = <50>;
-                };
-        };
-
 
 /* 
  * ============================================================================
@@ -134,22 +124,22 @@
         // レイヤー1: Upper
         upper_layer {
             bindings = <
-                        &kp N6  &kp N7  &kp N8  &kp N9  &kp N0                                                &kp CARET     &kp AMPS      &kp ASTRK     &kp LPAR  &kp RPAR 
-                &trans  &none   &none   &none   &none   &none                                                 &kp LBKT      &kp INT1      &none         &kp RBKT  &kp BSLH     &kp DEL
-                &trans  &none   &none   &none   &none   &none   &kp DEL                        &kp LS(EQUAL)  &kp LS(INT3)  &kp SEMI      &kp SQT       &trans    &trans       &trans
-                &trans          &none   &none   &none   &none   &kp INT5                       &kp LS(INT1)   &none         &kp LS(INT1)  &trans        &trans                 &trans
-                &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans      &trans   &trans         &trans        &kp LS(SQT)   &kp LS(SEMI)  &trans    &kp LS(SQT)  &kp LS(SEMI)
+                        &kp N6  &kp N7  &kp N8  &kp N9  &kp N0                                                &kp CARET     &kp AMPS      &kp ASTRK   &kp LPAR  &kp RPAR 
+                &trans  &none   &none   &none   &none   &none                                                 &kp LBKT      &kp INT1      &none       &kp RBKT  &kp BSLH  &kp DEL
+                &trans  &none   &none   &none   &none   &none   &kp DEL                        &kp LS(EQUAL)  &kp LS(INT3)  &kp SEMI      &kp SQT     &trans    &trans    &trans
+                &trans          &none   &none   &none   &none   &kp INT5                       &kp LS(INT1)   &none         &kp LS(INT1)  &trans      &trans              &trans
+                &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans      &trans   &trans         &kp LS(SQT)   &kp LS(SEMI)  &trans      &trans    &trans    &trans
             >;
         };
 
         // レイヤー2: Lower
         lower_layer {
             bindings = <
-                        &none       &none         &none    &none    &none                                          &none   &none   &none   &none   &none
-                &trans  &bt BT_CLR  &kp BSLH      &kp N7   &kp N8   &kp N9                                         &trans  &trans  &none   &none   &none   &trans
-                &trans  &none       &kp LS(SEMI)  &kp N4   &kp N5   &kp N6  &trans                       &m_sshot  &trans  &trans  &none   &none   &trans  &trans
-                &trans              &kp N0        &kp N1   &kp N2   &kp N3  &trans                       &m_slock  &trans  &trans  &trans  &trans          &trans
-                &trans  &trans      &trans        &trans   &trans   &trans  &trans  &trans       &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &kp N6      &kp N7        &kp N8  &kp N9  &kp N0                                            &kp CARET     &kp AMPS      &kp ASTRK   &kp LPAR  &kp RPAR 
+                &trans  &bt BT_CLR  &kp BSLH      &kp N7  &kp N8  &kp N9                                             &kp LBKT      &kp INT1      &none       &kp RBKT  &kp BSLH  &kp DEL
+                &trans  &none       &kp LS(SEMI)  &kp N4  &kp N5  &kp N6  &kp DEL                        &m_sshot   &kp LS(INT3)  &kp SEMI      &kp SQT     &trans    &trans    &trans
+                &trans              &kp N0        &kp N1  &kp N2  &kp N3  &kp INT5                       &m_slock   &none         &kp LS(INT1)  &trans      &trans              &trans
+                &trans  &trans      &trans        &trans  &trans  &trans  &trans    &trans      &trans   &trans     &kp LS(SQT)   &kp LS(SEMI)  &trans      &trans    &trans    &trans
             >;
         };
     };
