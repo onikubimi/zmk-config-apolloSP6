@@ -23,12 +23,3 @@
         , <&gpio0 8  GPIO_ACTIVE_HIGH>
         , <&gpio0 6  GPIO_ACTIVE_HIGH>;
 };
-
-
-    &right_encoder {
-        status = "okay";
-    };
-
-    &sensors {
-        sensors = <&right_encoder>;
-    };
