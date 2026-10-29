@@ -3,12 +3,12 @@
 &kscan0 {
         diode-direction = "row2col";
         row-gpios
-            = <&gpio0 6  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>   // R0 006
-            , <&gpio0 8  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>   // R1 008
-            , <&gpio1 0  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>   // R2 100
-            , <&gpio0 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>   // R3 011
-            , <&gpio1 4  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>   // R4 104
-            , <&gpio1 6  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;  // R5 106
+            = <&gpio0 6  (GPIO_ACTIVE_LOW)>   // R0 006
+            , <&gpio0 8  (GPIO_ACTIVE_LOW)>   // R1 008
+            , <&gpio1 0  (GPIO_ACTIVE_LOW)>   // R2 100
+            , <&gpio0 11 (GPIO_ACTIVE_LOW)>   // R3 011
+            , <&gpio1 4  (GPIO_ACTIVE_LOW)>   // R4 104
+            , <&gpio1 6  (GPIO_ACTIVE_LOW)>;  // R5 106
 
         col-gpios
            = <&gpio1 7  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>  // C0 107
