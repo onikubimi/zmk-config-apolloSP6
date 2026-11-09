@@ -66,19 +66,20 @@
             , <&key_physical_attrs 100 100  115  496       0     0     0>
             , <&key_physical_attrs 100 100  215  475       0     0     0>
             , <&key_physical_attrs 100 100  325  470       0     0     0>
+            // 以下、親指クラスターの回転角（centi-degree表記: 10度 = 1000）を正しい向きに整理
             , <&key_physical_attrs 100 100  520  390    1000     0     0>
             , <&key_physical_attrs 100 100  695  275    2000     0     0>
             , <&key_physical_attrs 100 100  850  135    3000     0     0>
-            , <&key_physical_attrs 100 100  425  921 (-3000)     0     0>
-            , <&key_physical_attrs 100 100  690  815 (-2000)     0     0>
-            , <&key_physical_attrs 100 100  935  665 (-1000)     0     0>
+            , <&key_physical_attrs 100 100  425  921   -3000     0     0>
+            , <&key_physical_attrs 100 100  690  815   -2000     0     0>
+            , <&key_physical_attrs 100 100  935  665   -1000     0     0>
             , <&key_physical_attrs 100 100 1150  475       0     0     0>
             , <&key_physical_attrs 100 100 1265  467       0     0     0>
             , <&key_physical_attrs 100 100 1365  495       0     0     0>
             , <&key_physical_attrs 100 100 1365  395       0     0     0>
-            , <&key_physical_attrs 100 100 1465  471       0     0     0>
-            ;
+            , <&key_physical_attrs 100 100 1465  471       0     0     0>;
     };
+
 
 
     default_transform: keymap_transform0 {
