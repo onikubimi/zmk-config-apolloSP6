@@ -14,14 +14,14 @@
         transform = <&default_transform>;
             keys  //                 w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100  100   35       0     0     0> // 1
-            , <&key_physical_attrs 100 100  200  -15       0     0     0> // 2
-            , <&key_physical_attrs 100 100  300  -40       0     0     0> // 3
-            , <&key_physical_attrs 100 100  400  -15       0     0     0> // 4
+            , <&key_physical_attrs 100 100  200 (-15)      0     0     0> // 2
+            , <&key_physical_attrs 100 100  300 (-40)      0     0     0> // 3
+            , <&key_physical_attrs 100 100  400 (-15)      0     0     0> // 4
             , <&key_physical_attrs 100 100  500   10       0     0     0> // 5
             , <&key_physical_attrs 100 100  925   10       0     0     0> // 6
-            , <&key_physical_attrs 100 100 1025  -15       0     0     0> // 7
-            , <&key_physical_attrs 100 100 1125  -40       0     0     0> // 8
-            , <&key_physical_attrs 100 100 1225  -15       0     0     0> // 9
+            , <&key_physical_attrs 100 100 1025 (-15)      0     0     0> // 7
+            , <&key_physical_attrs 100 100 1125 (-40)      0     0     0> // 8
+            , <&key_physical_attrs 100 100 1225 (-15)      0     0     0> // 9
             , <&key_physical_attrs 100 100 1325   35       0     0     0> // 0
 
             , <&key_physical_attrs 100 100  -25   85       0     0     0> // Esc
