@@ -70,13 +70,13 @@
             , <&key_physical_attrs 100 100   90  456       0     0     0> // ▼
             , <&key_physical_attrs 100 100  190  435       0     0     0> // ▶
             , <&key_physical_attrs 100 100  300  430       0     0     0> // Ctrl
-            , <&key_physical_attrs 100 100  495  350    1000     0     0> // Tab
-            , <&key_physical_attrs 100 100  670  235    2000     0     0> // Alt
-            , <&key_physical_attrs 100 100  825   95    3000     0     0> // space / fn1
-            , <&key_physical_attrs 100 100  400  881   -3000     0     0> // 無変換 / fn2
-            , <&key_physical_attrs 100 100  665  775   -2000     0     0> // Win
-            , <&key_physical_attrs 100 100  910  625   -1000     0     0> // , / *
-            , <&key_physical_attrs 100 100 1125  435       0     0     0> // . / +
+            , <&key_physical_attrs 100 100  495  350   (1000)    0     0> // Tab
+            , <&key_physical_attrs 100 100  670  235   (2000)    0     0> // Alt
+            , <&key_physical_attrs 100 100  825   95   (3000)    0     0> // space / fn1
+            , <&key_physical_attrs 100 100  400  881  (-3000)    0     0> // 無変換 / fn2
+            , <&key_physical_attrs 100 100  665  775  (-2000)    0     0> // Win
+            , <&key_physical_attrs 100 100  910  625  (-1000)    0     0> // ,
+            , <&key_physical_attrs 100 100 1125  435       0     0     0> // .
             , <&key_physical_attrs 100 100 1240  427       0     0     0> // ◀
             , <&key_physical_attrs 100 100 1340  455       0     0     0> // ▼
             , <&key_physical_attrs 100 100 1340  355       0     0     0> // ▲
