@@ -13,16 +13,16 @@
         display-name = "Default Layout";
         transform = <&default_transform>;
         keys  //                     w   h    x    y     rot    rx    ry
-            = <&key_physical_attrs 100 100  125   75       0     0     0>  // 1
-            , <&key_physical_attrs 100 100  225   25       0     0     0>  // 2
-            , <&key_physical_attrs 100 100  325    0       0     0     0>  // 3
-            , <&key_physical_attrs 100 100  425   25       0     0     0>  // 4
-            , <&key_physical_attrs 100 100  525   50       0     0     0>  // 5
-            , <&key_physical_attrs 100 100  950   50       0     0     0>  // 6
-            , <&key_physical_attrs 100 100 1050   25       0     0     0>  // 7
-            , <&key_physical_attrs 100 100 1150    0       0     0     0>  // 8
-            , <&key_physical_attrs 100 100 1250   25       0     0     0>  // 9
-            , <&key_physical_attrs 100 100 1350   75       0     0     0>  // 0
+            = <&key_physical_attrs 100 100  100   35       0     0     0>  // 1
+            , <&key_physical_attrs 100 100  200    0       0     0     0>  // 2
+            , <&key_physical_attrs 100 100  300 (-25)      0     0     0>  // 3
+            , <&key_physical_attrs 100 100  400    0       0     0     0>  // 4
+            , <&key_physical_attrs 100 100  500   25       0     0     0>  // 5
+            , <&key_physical_attrs 100 100  880   25       0     0     0>  // 6
+            , <&key_physical_attrs 100 100  980    0       0     0     0>  // 7
+            , <&key_physical_attrs 100 100 1080 (-25)      0     0     0>  // 8
+            , <&key_physical_attrs 100 100 1180    0       0     0     0>  // 9
+            , <&key_physical_attrs 100 100 1280   35       0     0     0>  // 0
 
             , <&key_physical_attrs 100 100    0  125       0     0     0>  // Esc
             , <&key_physical_attrs 100 100  125  175       0     0     0>  // Q
