@@ -74,9 +74,9 @@
             , <&key_physical_attrs 100 100  545  495    2000     0     0>  // Alt
             , <&key_physical_attrs 100 100  655  535    3000     0     0>  // ␣
 
-            , <&key_physical_attrs 100 100  825  527 (-3000)     0     0>  // 無
-            , <&key_physical_attrs 100 100  935  487 (-2000)     0     0>  // Win
-            , <&key_physical_attrs 100 100 1045  467 (-1000)     0     0>  // ,
+            , <&key_physical_attrs 100 100  825  572 (-3000)     0     0>  // 無
+            , <&key_physical_attrs 100 100  935  512 (-2000)     0     0>  // Win
+            , <&key_physical_attrs 100 100 1045  480 (-1000)     0     0>  // ,
             , <&key_physical_attrs 100 100 1155  462       0     0     0>  // .
             , <&key_physical_attrs 100 100 1265  467       0     0     0>  // ◀
             , <&key_physical_attrs 100 100 1365  495       0     0     0>  // ▼
