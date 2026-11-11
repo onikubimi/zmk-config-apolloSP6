@@ -13,16 +13,16 @@
         display-name = "Default Layout";
         transform = <&default_transform>;
         keys  //                     w   h    x    y     rot    rx    ry
-            = <&key_physical_attrs 100 100  100   35       0     0     0>  // 1
-            , <&key_physical_attrs 100 100  200    0       0     0     0>  // 2
-            , <&key_physical_attrs 100 100  300 (-25)      0     0     0>  // 3
-            , <&key_physical_attrs 100 100  400    0       0     0     0>  // 4
-            , <&key_physical_attrs 100 100  500   25       0     0     0>  // 5
-            , <&key_physical_attrs 100 100  880   25       0     0     0>  // 6
-            , <&key_physical_attrs 100 100  980    0       0     0     0>  // 7
-            , <&key_physical_attrs 100 100 1080 (-25)      0     0     0>  // 8
-            , <&key_physical_attrs 100 100 1180    0       0     0     0>  // 9
-            , <&key_physical_attrs 100 100 1280   35       0     0     0>  // 0
+            = <&key_physical_attrs 100 100  125   35       0     0     0>  // 1
+            , <&key_physical_attrs 100 100  225    0       0     0     0>  // 2
+            , <&key_physical_attrs 100 100  325 (-25)      0     0     0>  // 3
+            , <&key_physical_attrs 100 100  425    0       0     0     0>  // 4
+            , <&key_physical_attrs 100 100  525   25       0     0     0>  // 5
+            , <&key_physical_attrs 100 100  950   25       0     0     0>  // 6
+            , <&key_physical_attrs 100 100 1050    0       0     0     0>  // 7
+            , <&key_physical_attrs 100 100 1150 (-25)      0     0     0>  // 8
+            , <&key_physical_attrs 100 100 1250    0       0     0     0>  // 9
+            , <&key_physical_attrs 100 100 1350   35       0     0     0>  // 0
 
             , <&key_physical_attrs 100 100    0  125       0     0     0>  // Esc
             , <&key_physical_attrs 100 100  125  175       0     0     0>  // Q
@@ -70,12 +70,12 @@
             , <&key_physical_attrs 100 100  115  496       0     0     0>  // ▼
             , <&key_physical_attrs 100 100  215  475       0     0     0>  // ▶
             , <&key_physical_attrs 100 100  325  470       0     0     0>  // Ctrl
-            , <&key_physical_attrs 100 100  520  390    1000     0     0>  // Tab
-            , <&key_physical_attrs 100 100  695  275    2000     0     0>  // Alt
-            , <&key_physical_attrs 100 100  850  135    3000     0     0>  // ␣
-            , <&key_physical_attrs 100 100  425  921 (-3000)     0     0>  // 無
-            , <&key_physical_attrs 100 100  690  815 (-2000)     0     0>  // Win
-            , <&key_physical_attrs 100 100  935  665 (-1000)     0     0>  // ,
+            , <&key_physical_attrs 100 100  520  475    1000     0     0>  // Tab
+            , <&key_physical_attrs 100 100  695  495    2000     0     0>  // Alt
+            , <&key_physical_attrs 100 100  850  535    3000     0     0>  // ␣
+            , <&key_physical_attrs 100 100  425  570 (-3000)     0     0>  // 無
+            , <&key_physical_attrs 100 100  690  510 (-2000)     0     0>  // Win
+            , <&key_physical_attrs 100 100  935  472 (-1000)     0     0>  // ,
             , <&key_physical_attrs 100 100 1150  475       0     0     0>  // .
             , <&key_physical_attrs 100 100 1265  467       0     0     0>  // ◀
             , <&key_physical_attrs 100 100 1365  495       0     0     0>  // ▼
