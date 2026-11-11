@@ -1,7 +1,7 @@
 #include "apollosp6.dtsi"
 
 &kscan0 {
-        diode-direction = "col2row";
+        diode-direction = "row2col";
         row-gpios
             = <&gpio1 1  (GPIO_ACTIVE_LOW)>   // R0 006
             , <&gpio1 1  (GPIO_ACTIVE_LOW)>   // R1 008
