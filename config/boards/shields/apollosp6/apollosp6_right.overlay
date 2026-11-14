@@ -7,39 +7,20 @@
 &kscan0 {
         diode-direction = "col2row";
         row-gpios
-            = <&gpio1 6  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   // R5 106
-            , <&gpio1 4  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   // R4 104
-            , <&gpio0 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   // R3 011
+            = <&gpio0  6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   // R0 006
+            , <&gpio0  8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   // R1 008
             , <&gpio1 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   // R2 113
-            , <&gpio0 8  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   // R1 008
-            , <&gpio0 6  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;  // R0 006
+            , <&gpio0 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   // R3 011
+            , <&gpio1  4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   // R4 104
+            , <&gpio1  6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;  // R5 106
 
-/* --- 下の古い定義はコメントアウトして無効化 ---
-col-gpios
-        = <&gpio0 17 GPIO_ACTIVE_HIGH>   // C0 (マトリックス上のC8)
-        , <&gpio0 20 GPIO_ACTIVE_HIGH>   // C1 (C9)
-        , <&gpio0 22 GPIO_ACTIVE_HIGH>   // C2 (C10)
-        , <&gpio0 24 GPIO_ACTIVE_HIGH>   // C3 (C11)
-        , <&gpio0  9 GPIO_ACTIVE_HIGH>   // C4 (C12)
-        , <&gpio0 10 GPIO_ACTIVE_HIGH>   // C5 (C13)
-        , <&gpio1 11 GPIO_ACTIVE_HIGH>   // C6 (C14)
-        , <&gpio1 13 GPIO_ACTIVE_HIGH>   // C7 (C15)
-        , <&gpio1 15 GPIO_ACTIVE_HIGH>   // C8
-        , <&gpio0  2 GPIO_ACTIVE_HIGH>   // C9
-        , <&gpio0 29 GPIO_ACTIVE_HIGH>;  // C10
-};
---------------------------------------------- */
-
-        col-gpios
-           = <&gpio0 20 (GPIO_ACTIVE_HIGH)>  // C10 029→020
-           , <&gpio0 22 (GPIO_ACTIVE_HIGH)>  // C9 002 022
-           , <&gpio0 24 (GPIO_ACTIVE_HIGH)>  // C8 115 024
-           , <&gpio1  0 (GPIO_ACTIVE_HIGH)>  // C7 113 100
-           , <&gpio0 11 (GPIO_ACTIVE_HIGH)>  // C6 111 011
-           , <&gpio1  4 (GPIO_ACTIVE_HIGH)>  // C5 010 104
-           , <&gpio1  6 (GPIO_ACTIVE_HIGH)>  // C4 009 106
-           , <&gpio1 15 (GPIO_ACTIVE_HIGH)>  // C3 024 115
-           , <&gpio0  2 (GPIO_ACTIVE_HIGH)>  // C2 022 002
-           , <&gpio0 29 (GPIO_ACTIVE_HIGH)>  // C1 020 029
-           , <&gpio0 31 (GPIO_ACTIVE_HIGH)>; // C0 107 031
+         col-gpios
+            = <&gpio0 31 GPIO_ACTIVE_HIGH>   // 列8  (右手一番内側：M0 / M1 の列)
+            , <&gpio0 29 GPIO_ACTIVE_HIGH>   // 列9  (6 / Y / H / B の列)  ← ここにRC(2,9)のピンを入れる
+            , <&gpio0  2 GPIO_ACTIVE_HIGH>   // 列10 (7 / U / J / N の列)  ← ここにRC(2,10)のピンを入れる
+            , <&gpio1 15 GPIO_ACTIVE_HIGH>   // 列11 (8 / I / K / M の列)
+            , <&gpio0 24 GPIO_ACTIVE_HIGH>   // 列12 (9 / O / L / [ の列)
+            , <&gpio0 22 GPIO_ACTIVE_HIGH>   // 列13 (0 / P / ] の列)
+            , <&gpio0 20 GPIO_ACTIVE_HIGH>   // 列14 (Bksp / - / Enter の列)
+            , <&gpio0 17 GPIO_ACTIVE_HIGH>;  // 列15 (右端の列)
 };
