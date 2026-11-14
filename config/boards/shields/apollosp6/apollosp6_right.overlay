@@ -10,7 +10,7 @@
             = <&gpio1 6  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   // R5 106
             , <&gpio1 4  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   // R4 104
             , <&gpio0 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   // R3 011
-            , <&gpio1 0  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   // R2 100
+            , <&gpio1 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   // R2 113
             , <&gpio0 8  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   // R1 008
             , <&gpio0 6  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;  // R0 006
  
